@@ -1,4 +1,4 @@
-/***** GENERAL STYLING *****/
+
 /* Body */
 body {
     margin: 0%  /* This ensures our site displays all the way to the edge of the browser screen */
@@ -6,7 +6,7 @@ body {
 
 /* Heading 1 elements */
 h1 {
-    text-transform: uppercase; /* Capitalizing all h1 headings */
+    text-transform: uppercase; 
     font-family: "Century Gothic"; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
@@ -186,8 +186,7 @@ footer {
     width: 100%; /* Ensures the video-text container fills the width of the video */
     padding: 50px; /* This adds padding around the video-text container so that the background goes slightly beyond the text */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
-    -webkit-animation: moveVideoText 5.75s;
-    animation: moveVideoText 5.75s;
+
 }
 
 /* This animation effect causes the overlay video text to move up from the bottom of the page upon page load */
@@ -507,6 +506,8 @@ button:hover, .form-container .btn:hover {
                 
 .text-focus-in {
     -webkit-animation: text-focus-in 4s;
-    font-size: 300%;
+    font-family: 'Century Gothic';
+    font-size: 400%;
     text-align: center;
 }
+

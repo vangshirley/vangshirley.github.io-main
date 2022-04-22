@@ -497,16 +497,6 @@ button:hover, .form-container .btn:hover {
 .Row:after {
 	content: ""; /* By leaving this blank, we are allowing the footer (covered lower down) to be displayed - removing it makes the footer overwrite a column */
 	display: table; /* The display property specifies the type of display behavior; the table value tells the browser to treat the element as a table */
-	clear: both; /* This clears any other elements from floating on the left or the right of an element */
-}
+	clear: both;
+    
 /***** End of Table Styling *****/
-
-/*DESIGN ANIMATION */
-
-@-webkit-keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
-        
-.text-focus-in {
-    -webkit-animation: text-focus-in 4s;
-    font-size: 300%;
-    text-align: center;
-}

@@ -480,7 +480,7 @@ button:hover, .form-container .btn:hover {
     float: left;
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 1.6%;
-    height: 450px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
+    height: 500px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
     background-color: #faf6f2; /* Sets the background color of the left columns */
 }
 
@@ -488,7 +488,7 @@ button:hover, .form-container .btn:hover {
     float: left;
     width: 50%;
     padding: 1.6%;
-    height: 450px;
+    height: 500px;
     background-color: #ded1bd;
 }
 
